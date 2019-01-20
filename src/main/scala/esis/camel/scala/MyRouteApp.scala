@@ -10,12 +10,12 @@ object MyRouteApp extends App {
 
   val camelContext = new DefaultCamelContext
   camelContext.addRoutes(new MyRouteBuilder)
-  logger.info("~//starting MyRouteMain...")
+  logger.info("Starting MyRouteApp...")
   camelContext.start
 
   Thread.sleep(2000)
 
-  logger.info("stopping...")
+  logger.info("Stopping MyRouteApp...")
   camelContext.stop
 
 }
