@@ -1,11 +1,13 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea
 .gradle
-out
 *.iml
 logs
 *.log
+gradlew
+gradlew.bat
 target
-*/target
 build
-*/build
+out
+gradle
+activemq-data

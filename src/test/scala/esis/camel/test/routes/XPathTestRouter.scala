@@ -10,6 +10,7 @@ class XPathTestRouter extends  CamelTestSupport with RouteBuilderSupport{
 	val endpoint="direct:a"
 	val header = "HEADER"
 	val headerValue = "CAMEL_TEST"
+
 	/* Override the RouteBuilder creatreRouteBuilderMethod */
 	override def createRouteBuilder() = this.createMyRouteBuilder
 	@Test
