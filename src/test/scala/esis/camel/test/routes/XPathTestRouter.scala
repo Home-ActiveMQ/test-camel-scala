@@ -1,12 +1,11 @@
 package esis.camel.test.routes
 
-
 import org.apache.camel.test.junit4.CamelTestSupport
 import org.junit.Test
 import org.apache.camel.scala.dsl.builder.RouteBuilderSupport
 import org.apache.camel.scala.dsl.builder.RouteBuilder
 
-class XPathTestRouter extends  CamelTestSupport with RouteBuilderSupport{
+class XPathTestRouter extends  CamelTestSupport with RouteBuilderSupport {
 	val endpoint="direct:a"
 	val header = "HEADER"
 	val headerValue = "CAMEL_TEST"

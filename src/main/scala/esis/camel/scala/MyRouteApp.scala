@@ -4,7 +4,6 @@ import org.apache.camel.impl.DefaultCamelContext
 import org.apache.log4j.Logger
 import esis.camel.scala.routes.MyRouteBuilder
 
-
 object MyRouteApp extends App {
   val logger = Logger.getLogger(MyRouteApp.getClass)
 
